@@ -1,0 +1,7 @@
+sample_id,type,response,expression
+Klebsiella_1,soil,2,9
+Klebsiella_2,soil,3,8
+Klebsiella_3,soil,4,7
+Klebsiella_4,water,5,6
+Klebsiella_5,water,6,5
+Klebsiella_6,water,7,4

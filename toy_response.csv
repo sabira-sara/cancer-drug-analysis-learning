@@ -1,0 +1,4 @@
+model_id,cancer,response
+TRAIN_1,HCC,0.9
+TRAIN_2,Pancreatic,0.6
+TRAIN_3,TNBC,0.4
