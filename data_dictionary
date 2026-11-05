@@ -1,0 +1,20 @@
+# Data Dictionary: Cancer Data
+
+This document describes each variable in the `cancer_data` dataset.
+
+| Column | Description | Data Type | Unit |
+|---|---|---|---|
+| model_id | Unique identifier for each cancer cell model | Character | None |
+| cancer | Type of cancer associated with the cell model | Character | None |
+| drug | Drug administered to the cancer cell model | Character | None |
+| dose_uM | Concentration of the drug administered | Numeric | µM |
+| response | Measured drug response expressed as a proportion | Numeric | 0–1 |
+| high_dose | Indicates whether drug concentration is greater than 5 µM | Logical | TRUE/FALSE |
+| response_percent | Drug response converted into a percentage | Numeric | % |
+
+## Notes
+
+- `dose_uM`: Drug concentration in micromolar.
+- `response`: Original normalized response value.
+- `high_dose`: TRUE when dose is greater than 5 µM.
+- `response_percent`: Calculated by multiplying response by 100.
