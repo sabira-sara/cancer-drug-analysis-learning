@@ -35,3 +35,5 @@ It helps researchers understand:
 DepMap helps researchers understand the biological characteristics and genetic dependencies of cancer cell lines, whereas PRISM Repurposing helps researchers investigate how those cell lines respond to different compounds.
 
 Combining these resources can help researchers explore relationships between gene expression, gene dependency, and drug sensitivity.
+
+Model ID is the common key that connects DepMap and PRISM.
